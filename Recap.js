@@ -19,34 +19,34 @@ javascript prothotype based use event loop and working asynchronously.
     
 // }
 var marks = [56, 45, 17, 45, 25, '50 Marks Panding'];
-// for (let i = 0; i < marks.length; i++){
-//     const element = marks[i];
-//     console.log(element);
-// };
-// console.log('outside');
-// console.log('outsideOfLoop');
+for (let i = 0; i < marks.length; i++){
+    const element = marks[i];
+    console.log(element);
+};
+console.log('outside');
+console.log('outsideOfLoop');
 
-// // When Function I was Used
+// When Function I was Used
 
-// function add(number1, number2){
-//     var total = number1 + number2;
-//     return total;
+function add(number1, number2){
+    var total = number1 + number2;
+    return total;
 
-// }
-// const result = add(1, 2);
-// console.log(result);
+}
+const result = add(1, 2);
+console.log(result);
 
-// console.log('outside');
-// console.log('outsideOfFunction');
+console.log('outside');
+console.log('outsideOfFunction');
 
-// const result1 = add(3, 4);
-// console.log(result1);
+const result1 = add(3, 4);
+console.log(result1);
 
 
-function getNumber(marks){
-    var larger = marks[0];
-    for (let i = 0; i < marks.length; i++) {
-        const element = marks[i];
+function getNumber(numbers){
+    var larger = numbers[0];
+    for (let i = 0; i < numbers.length; i++) {
+        const element = numbers[i];
         if(element > larger){
             larger = element;
         }
@@ -61,7 +61,7 @@ console.log('output', output);
 
 
 
-
+    
 
 
 
