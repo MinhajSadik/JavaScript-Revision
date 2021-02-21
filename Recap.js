@@ -53,19 +53,11 @@ function getNumber(numbers){
     }
     return larger;
 }
+getNumber([39, 40, 41, 42])
 
 var numbers = [32, 45, 100, 100, 100, 100, 100, 100, 100];
 var output = getNumber(numbers);
 console.log('output', output);
-
-
-
-
-    
-
-
-
-
 
 
 
