@@ -59,3 +59,9 @@ var numbers = [32, 45, 100, 100, 100, 100, 100, 100, 100];
 var output = getNumber(numbers);
 console.log('output', output);
 
+// JavaScript Five Gold
+//1 Variable 
+//2 Condition
+//3 Loop
+//4 Array
+//5 Function
