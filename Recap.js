@@ -59,5 +59,3 @@ var numbers = [32, 45, 100, 100, 100, 100, 100, 100, 100];
 var output = getNumber(numbers);
 console.log('output', output);
 
-
-
