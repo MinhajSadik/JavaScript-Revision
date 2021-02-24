@@ -98,9 +98,37 @@
 // var result = numbers.slice(-1, 3);
 // console.log(result);
 
-var number = 70;
-while (number < 10) {
-    number = number + 1;
-    console.log('its a right number');
+// var number = 70;
+// while (number < 10) {
+//     number = number + 1;
+//     console.log('its a right number');
 
+// }
+
+
+// var number = Math.random() * 1000000 ;
+// console.log(number.toFixed());
+
+// var number = 40;
+// if(number < 20){ 
+//     console.log('this number is too big');
+// }else if(number >= 40){
+//     console.log('this number is another big');
+// }
+
+// var number = 30;
+// while (number <= 30){
+//     number += 1;
+//     console.log('this number is right');
+// }
+// console.log('out of loop');
+
+
+
+var friends = [{name: 'minhaj', age: 30, gender:'male'}]
+
+for(let i = 0; i < friends.length; i++) {
+    const element = friends[i];
+    console.log(element)
 }
+

@@ -12,6 +12,7 @@ javascript prothotype based use event loop and working asynchronously.
 //3 javascript is client side and node is js runtime envairoment.
 
 
+
 //Revisit String , Array, Loop. when 
 // When Loop I was Used
 // for loop 
@@ -65,3 +66,5 @@ console.log('output', output);
 //3 Loop
 //4 Array
 //5 Function
+
+
